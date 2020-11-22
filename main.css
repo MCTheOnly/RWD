@@ -25,6 +25,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -96,7 +97,7 @@ header .wrap nav ul li {
 header .wrap nav ul li a {
   display: block;
   color: black;
-  font-size: 0.6em;
+  font-size: 0.66em;
   letter-spacing: -1px;
 }
 
@@ -195,12 +196,14 @@ main .wrap section .container .wrapper {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  position: relative;
+  width: 100%;
 }
 
 main .wrap section .container .wrapper h1 {
   font-family: "Spartan-ExtraBold";
   text-transform: uppercase;
-  line-height: 55px;
+  line-height: 60px;
   font-size: 2.37em;
   color: white;
 }
@@ -208,6 +211,7 @@ main .wrap section .container .wrapper h1 {
 main .wrap section .container .wrapper h1 span {
   color: #d8d8d8;
   font-size: 0.45em;
+  line-height: initial;
 }
 
 main .wrap section .container .wrapper .buttons {

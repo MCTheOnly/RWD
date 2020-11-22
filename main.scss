@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    //border: 1px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -87,7 +87,7 @@ header {
                     a {
                         display: block;
                         color: black;
-                        font-size: 0.6em;
+                        font-size: 0.66em;
                         letter-spacing: -1px;
                     }
                     &:hover a {
@@ -176,15 +176,18 @@ main {
                     flex-direction: column;
                     justify-content: flex-start;
                     align-items: flex-start;
+                    position: relative;
+                    width: 100%;
                     h1 {
                         font-family: "Spartan-ExtraBold";
                         text-transform: uppercase;
-                        line-height: 55px;
+                        line-height: 60px;
                         font-size: 2.37em;
                         color: white;
                         span {
                             color: #d8d8d8;
                             font-size: 0.45em;
+                            line-height: initial;
                         }
                     }
                     .buttons {
