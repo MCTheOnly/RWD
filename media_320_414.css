@@ -8,7 +8,7 @@
     }
     main .wrap section {
         width: 100%;
-        height: 600px;
+        height: 400px;
         position: relative;
     }
     main .wrap section>img {
@@ -16,8 +16,37 @@
         height: 100%;
         display: block;
     }
+    main .wrap section .container {
+        padding: 0 10px 0 10px;
+        flex-direction: column;
+    }
     main .wrap section .container .arrow {
         width: 35px;
         height: 35px;
+    }
+    main .wrap section .container #left {
+        top: 92%;
+    }
+    main .wrap section .container #right {
+        top: 92%;
+    }
+    main .wrap section .container .wrapper h1 {
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        font-size: 1.4em;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    main .wrap section .container .wrapper .buttons {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
     }
 }
