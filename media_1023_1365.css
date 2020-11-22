@@ -1,0 +1,6 @@
+@media screen and (min-device-width: 1023px) and (max-device-width: 1365px) {
+    header .wrap {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
