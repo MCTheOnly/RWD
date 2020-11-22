@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    //border: 1px solid red;
 }
 
 body {
@@ -139,6 +139,7 @@ main {
                 padding: 0 19% 0 19%;
                 .arrow {
                     width: 50px;
+                    margin: 10px;
                     height: 50px;
                     background-repeat: no-repeat;
                     display: flex;
@@ -164,7 +165,7 @@ main {
                     left: 50%;
                     border: initial;
                     width: auto;
-                    transform: translateX(-50%);
+                    transform: translateX(-55%);
                     h5 {
                         color: white;
                         font-family: "Spartan-Bold";
@@ -187,6 +188,7 @@ main {
                         font-size: 2.37em;
                         color: white;
                         width: 500px;
+                        margin: 20px;
                         span {
                             color: #d8d8d8;
                             font-size: 0.45em;
@@ -209,13 +211,14 @@ main {
                             width: 200px;
                             height: 50px;
                             background-color: #f8db14;
-                            margin-right: 15px;
+                            margin: 10px;
                         }
                         .button2 {
                             width: 250px;
                             height: 50px;
                             background-color: black;
                             color: white;
+                            margin: 10px;
                         }
                     }
                 }
