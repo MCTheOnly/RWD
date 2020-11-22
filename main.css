@@ -25,7 +25,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 body {
@@ -134,6 +133,7 @@ main .wrap section {
 main .wrap section img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 main .wrap section .container {
@@ -156,19 +156,38 @@ main .wrap section .container .arrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 50px 0 50px;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   border: 2px solid white;
+  cursor: pointer;
 }
 
 main .wrap section .container #left {
-  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2%;
 }
 
 main .wrap section .container #right {
-  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+}
+
+main .wrap section .container #down {
+  flex-direction: column;
+  bottom: 5%;
+  left: 50%;
+  border: initial;
+  width: auto;
+  transform: translateX(-50%);
+}
+
+main .wrap section .container #down h5 {
+  color: white;
+  font-family: "Spartan-Bold";
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-bottom: 15px;
 }
 
 main .wrap section .container .wrapper {
@@ -181,7 +200,7 @@ main .wrap section .container .wrapper {
 main .wrap section .container .wrapper h1 {
   font-family: "Spartan-ExtraBold";
   text-transform: uppercase;
-  line-height: 50px;
+  line-height: 55px;
   font-size: 2.37em;
   color: white;
 }
@@ -189,7 +208,6 @@ main .wrap section .container .wrapper h1 {
 main .wrap section .container .wrapper h1 span {
   color: #d8d8d8;
   font-size: 0.45em;
-  text-transform: initial;
 }
 
 main .wrap section .container .wrapper .buttons {
