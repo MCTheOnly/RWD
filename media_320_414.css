@@ -6,4 +6,18 @@
     header .wrap nav {
         display: none;
     }
+    main .wrap section {
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }
+    main .wrap section>img {
+        max-width: none;
+        height: 100%;
+        display: block;
+    }
+    main .wrap section .container .arrow {
+        width: 35px;
+        height: 35px;
+    }
 }
