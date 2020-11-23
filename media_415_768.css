@@ -20,4 +20,50 @@
         width: 35px;
         height: 35px;
     }
+    main .wrap section .container #left {
+        top: initial;
+        bottom: -15px;
+        left: 0;
+    }
+    main .wrap section .container #right {
+        top: initial;
+        bottom: -15px;
+        right: 0;
+    }
+    main .wrap section .container .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    main .wrap section .container .wrapper h1 {
+        margin-top: 30px;
+        line-height: 30px;
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+    }
+    main .wrap section .container .wrapper h1 span {
+        font-size: 0.8em;
+    }
+    main .wrap section .container .wrapper .buttons {
+        margin-top: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main .wrap section .container .wrapper .buttons .button1 {
+        width: 200px;
+        font-size: 0.7em;
+    }
+    main .wrap section .container .wrapper .buttons .button2 {
+        width: 200px;
+        font-size: 0.6em;
+    }
+    main .wrap section .container #down h5 {
+        font-size: 0.6em;
+    }
+    main .wrap section .container #down h5 img {
+        transform: translateX(-50%);
+    }
 }
