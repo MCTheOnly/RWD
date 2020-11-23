@@ -15,6 +15,9 @@
         max-width: none;
         height: 100%;
         display: block;
+        position: relative;
+        top: 0;
+        left: -30%;
     }
     main .wrap section .container {
         padding: 0 12% 0 12%;
@@ -39,7 +42,6 @@
     main .wrap section .container .wrapper h1 span {
         font-size: 0.6em;
         margin-bottom: 30px;
-        display: block;
     }
     main .wrap section .container .wrapper .buttons {
         margin-top: 0;

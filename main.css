@@ -213,6 +213,7 @@ main .wrap section .container .wrapper h1 {
 }
 
 main .wrap section .container .wrapper h1 span {
+  display: block;
   color: #d8d8d8;
   font-size: 0.45em;
   line-height: initial;
