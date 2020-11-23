@@ -1,6 +1,9 @@
-@media screen and (min-device-width: 769px) and (max-device-width: 1023px) {
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
     header .wrap {
         padding-left: 3%;
         padding-right: 3%;
+    }
+    main .wrap section .container .wrapper {
+        margin-bottom: 60px;
     }
 }
