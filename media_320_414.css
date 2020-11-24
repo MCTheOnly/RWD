@@ -75,4 +75,10 @@
     main .wrap .front .container #down h5 img {
         transform: translateX(-50%);
     }
+    main .wrap .services {
+        flex-direction: column;
+    }
+    main .wrap .services .servBox {
+        width: 100%;
+    }
 }

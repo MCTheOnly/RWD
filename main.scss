@@ -105,7 +105,6 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
     .wrap {
         width: 100%;
         height: 100%;
@@ -244,8 +243,6 @@ main {
                 }
                 .overlay {
                     position: absolute;
-                    top: 0;
-                    left: 0;
                     width: 100%;
                     height: 100%;
                     background-color: rgba(0, 0, 0, 0.5);
@@ -261,6 +258,9 @@ main {
                     text-align: center;
                     padding: 15px;
                     letter-spacing: -1px;
+                }
+                &:hover .overlay {
+                    background-color: rgba(0, 0, 0, 0.3);
                 }
             }
         }

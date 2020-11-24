@@ -110,7 +110,6 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
 }
 
 main .wrap {
@@ -273,8 +272,6 @@ main .wrap .services .servBox img {
 
 main .wrap .services .servBox .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -291,4 +288,8 @@ main .wrap .services .servBox h2 {
   text-align: center;
   padding: 15px;
   letter-spacing: -1px;
+}
+
+main .wrap .services .servBox:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
 }
