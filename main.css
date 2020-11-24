@@ -250,7 +250,7 @@ main .wrap .front .container .wrapper .buttons .button2 {
 main .wrap .services {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%;

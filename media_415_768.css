@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 425px) and (max-device-width: 768px) {
     header .wrap {
         padding-left: 5%;
         padding-right: 5%;
@@ -65,9 +65,13 @@
         transform: translateX(-50%);
     }
     main .wrap .services {
-        flex-direction: column;
+        flex-direction: row;
     }
     main .wrap .services .servBox {
         width: 50%;
+    }
+    main .wrap .services .servBox h2 {
+        font-size: 1.2em;
+        max-width: 50%;
     }
 }
