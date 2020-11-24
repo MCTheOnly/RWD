@@ -25,7 +25,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red !important;
 }
 
 body {
@@ -264,11 +263,22 @@ main .wrap .services .servBox {
   align-items: center;
   justify-content: center;
   width: 25%;
+  position: relative;
+}
+
+main .wrap .services .servBox img {
+  width: 100%;
 }
 
 main .wrap .services .servBox h2 {
+  position: absolute;
   display: block;
-  border: 2px solid black;
-  color: black;
-  font-size: 0.8em;
+  border: 2px solid #f8db14;
+  color: #f8db14;
+  font-size: 1.5em;
+  font-family: "Spartan-Bold";
+  max-width: 60%;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: -1px;
 }
