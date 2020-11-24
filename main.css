@@ -25,6 +25,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red !important;
 }
 
 body {
@@ -247,4 +248,27 @@ main .wrap .front .container .wrapper .buttons .button2 {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   margin: 10px;
+}
+
+main .wrap .services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main .wrap .services .servBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+main .wrap .services .servBox h2 {
+  display: block;
+  border: 2px solid black;
+  color: black;
 }
