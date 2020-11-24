@@ -128,7 +128,7 @@ main .wrap .front {
   width: 100%;
   height: auto;
   position: relative;
-  overflow: hidden;
+  margin: 0 auto;
 }
 
 main .wrap .front img {
