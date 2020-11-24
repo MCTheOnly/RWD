@@ -125,20 +125,20 @@ main .wrap {
   margin: 0;
 }
 
-main .wrap section {
+main .wrap .front {
   width: 100%;
   height: auto;
   position: relative;
   overflow: hidden;
 }
 
-main .wrap section img {
+main .wrap .front img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-main .wrap section .container {
+main .wrap .front .container {
   position: absolute;
   top: 0;
   left: 0;
@@ -151,7 +151,7 @@ main .wrap section .container {
   padding: 0 19% 0 19%;
 }
 
-main .wrap section .container .arrow {
+main .wrap .front .container .arrow {
   width: 50px;
   margin: 10px;
   height: 50px;
@@ -164,19 +164,19 @@ main .wrap section .container .arrow {
   cursor: pointer;
 }
 
-main .wrap section .container #left {
+main .wrap .front .container #left {
   top: 50%;
   transform: translateY(-50%);
   left: 2%;
 }
 
-main .wrap section .container #right {
+main .wrap .front .container #right {
   top: 50%;
   transform: translateY(-50%);
   right: 2%;
 }
 
-main .wrap section .container #down {
+main .wrap .front .container #down {
   flex-direction: column;
   bottom: 5%;
   left: 50%;
@@ -185,7 +185,7 @@ main .wrap section .container #down {
   transform: translateX(-55%);
 }
 
-main .wrap section .container #down h5 {
+main .wrap .front .container #down h5 {
   color: white;
   font-family: "Spartan-Bold";
   text-transform: uppercase;
@@ -193,7 +193,7 @@ main .wrap section .container #down h5 {
   margin-bottom: 15px;
 }
 
-main .wrap section .container .wrapper {
+main .wrap .front .container .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -202,7 +202,7 @@ main .wrap section .container .wrapper {
   width: 100%;
 }
 
-main .wrap section .container .wrapper h1 {
+main .wrap .front .container .wrapper h1 {
   font-family: "Spartan-ExtraBold";
   text-transform: uppercase;
   line-height: 60px;
@@ -212,14 +212,14 @@ main .wrap section .container .wrapper h1 {
   margin: 20px;
 }
 
-main .wrap section .container .wrapper h1 span {
+main .wrap .front .container .wrapper h1 span {
   display: block;
   color: #d8d8d8;
   font-size: 0.45em;
   line-height: initial;
 }
 
-main .wrap section .container .wrapper .buttons {
+main .wrap .front .container .wrapper .buttons {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -228,20 +228,20 @@ main .wrap section .container .wrapper .buttons {
   height: auto;
 }
 
-main .wrap section .container .wrapper .buttons a {
+main .wrap .front .container .wrapper .buttons a {
   margin: 10px 0 10px 0;
   padding: 15px;
   font-size: 0.8em;
 }
 
-main .wrap section .container .wrapper .buttons .button1 {
+main .wrap .front .container .wrapper .buttons .button1 {
   width: 200px;
   height: 50px;
   background-color: #f8db14;
   margin: 10px;
 }
 
-main .wrap section .container .wrapper .buttons .button2 {
+main .wrap .front .container .wrapper .buttons .button2 {
   width: 250px;
   height: 50px;
   background-color: rgba(0, 0, 0, 0.5);
