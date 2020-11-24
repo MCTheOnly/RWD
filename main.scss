@@ -37,7 +37,6 @@ body {
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 a {
@@ -242,6 +241,7 @@ main {
                     display: block;
                     border: 2px solid black;
                     color: black;
+                    font-size: 0.8em;
                 }
             }
         }
